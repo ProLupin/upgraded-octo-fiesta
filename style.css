@@ -1,0 +1,63 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Dancing Script', cursive;
+    font-size:25px
+}
+#score{
+    font-size:25px;
+    margin-left:15px;
+    float:left;
+    border-style: dotted;
+    border-color: black;
+    background-color: rgb(110, 36, 214);
+    color: aliceblue;
+}
+#timer{
+    font-size:25px;
+    float:right;
+    margin-right:80px;
+    border-style: dotted;
+    background-color: rgb(110, 36, 214);    
+    color: aliceblue;
+    border-color: black;
+}
+#show_sketch{
+    float:right;
+}
+h1{
+background-color: rgb(110, 36, 214);
+color:aliceblue;
+border-style: dotted;
+border-color: black;
+font-size:50px;
+padding:10px;
+margin-top:0px;
+}
+#sketch_tbd{
+    color:rgb(110, 36, 214);
+    font-style: inherit;
+    font-weight: bolder;
+    font-size: larger;
+}
+#confidence{
+    color:rgb(110, 36, 214);
+    font-weight: bolder;
+    font-size: larger;
+}
+#your_sketch{
+    color:rgb(110, 36, 214);
+    font-weight: bolder;
+    font-size: larger;
+}
+canvas{
+    border: 5px white solid;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top:80px;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 40px grey; }
+    to{box-shadow:5px 5px 40px white;}
+}
